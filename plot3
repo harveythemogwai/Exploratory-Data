@@ -1,4 +1,4 @@
-read.table(data,sep=";",header=TRUE,colClasses= c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric') ,skip=0,na.strings="?")
+read.table(household_power_consumption,sep=";",header=TRUE,colClasses= c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric') ,skip=0,na.strings="?")
 png("plot3.png")
 plot(data$Sub_metering_1, type = "l", ylab = "Energy sub metering")
 lines(data$Sub_metering_2, type = "l", col = "red")
