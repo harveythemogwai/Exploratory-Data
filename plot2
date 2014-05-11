@@ -1,0 +1,1 @@
+plot(data$Global_active_power, type="l", col="black", ylab = "Global Active Power (kilowatts)")
